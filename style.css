@@ -20,6 +20,25 @@ align-items:center;
     gap:15px;
 }
 
+.logo-text{
+    display:flex;
+    flex-direction:column;
+}
+
+.kh-title{
+    color:#F4B400;
+    font-size:20px;
+    font-weight:700;
+    line-height:1.2;
+}
+
+.en-title{
+    color:white;
+    font-size:18px;
+    font-weight:600;
+    line-height:1.2;
+}
+
 .logo span{
     color:white;
     font-size:28px;
