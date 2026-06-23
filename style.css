@@ -150,3 +150,42 @@ padding:20px;
     text-decoration:none;
     margin-top:20px;
 }
+.features{
+    padding:80px 50px;
+    text-align:center;
+    background:#ffffff;
+}
+
+.features h2{
+    font-size:40px;
+    color:#6F2DBD;
+    margin-bottom:10px;
+}
+
+.features p{
+    color:#666;
+    margin-bottom:40px;
+}
+
+.feature-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:25px;
+}
+
+.card{
+    background:white;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+}
+
+.card h3{
+    color:#2F3B59;
+    margin-bottom:15px;
+}
