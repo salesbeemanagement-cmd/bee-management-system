@@ -6,7 +6,7 @@ font-family:Arial,sans-serif;
 }
 
 .navbar{
-background:#2d3748;
+background:624ace;
 color:white;
 padding:15px 40px;
 display:flex;
@@ -127,7 +127,7 @@ padding:20px;
     border-radius:6px;
 }
 .logo img{
-    height:140px;
+    height:110px;
     width:auto;
 }
 
