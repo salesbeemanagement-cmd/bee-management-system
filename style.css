@@ -6,12 +6,11 @@ font-family:Arial,sans-serif;
 }
 
 .navbar{
-background:624ace;
-color:white;
-padding:15px 40px;
-display:flex;
-justify-content:space-between;
-align-items:center;
+    background:linear-gradient(
+        135deg,
+        #4b00c8,
+        #7b2cff
+    );
 }
 
 .logo{
