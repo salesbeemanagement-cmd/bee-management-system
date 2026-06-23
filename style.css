@@ -218,3 +218,38 @@ padding:20px;
     margin-bottom:15px;
     color:#2F3B59;
 }
+<section class="hero">
+    <div class="hero-left">
+
+        <span class="hero-badge">
+            BEE ប្រព័ន្ធគ្រប់គ្រងអាជីវកម្ម
+        </span>
+
+        <h1>
+            ដំណោះស្រាយឌីជីថលសម្រាប់<br>
+            អាជីវកម្មខ្មែរ
+        </h1>
+
+        <p>
+            គ្រប់គ្រងស្តុកទំនិញ ការលក់ អតិថិជន
+            និងរបាយការណ៍អាជីវកម្ម នៅក្នុងប្រព័ន្ធតែមួយ។
+        </p>
+
+        <div class="hero-buttons">
+            <a href="login.html" class="btn-primary">
+                ចាប់ផ្តើមឥឡូវនេះ
+            </a>
+
+            <a href="features.html" class="btn-secondary">
+                មើលព័ត៌មានបន្ថែម
+            </a>
+        </div>
+
+    </div>
+
+    <div class="hero-right">
+
+        <img src="dashboard.png" alt="BEE Dashboard">
+
+    </div>
+</section>
