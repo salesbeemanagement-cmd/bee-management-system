@@ -71,6 +71,16 @@ text-align:center;
 padding:120px 20px;
 background:#f7fafc;
 }
+.hero{
+    background:
+    radial-gradient(
+    circle at center,
+    #ffffff,
+    #f5efff
+    );
+
+    padding:80px 8%;
+}
 
 .hero h1{
 font-size:48px;
