@@ -27,14 +27,14 @@ align-items:center;
 
 .kh-title{
     color:#F4B400;
-    font-size:80px;
+    font-size:28px;
     font-weight:700;
     line-height:1.2;
 }
 
 .en-title{
     color:white;
-    font-size:70px;
+    font-size:25px;
     font-weight:600;
     line-height:1.2;
 }
@@ -127,7 +127,7 @@ padding:20px;
     border-radius:6px;
 }
 .logo img{
-    height:240px;
+    height:140px;
     width:auto;
 }
 
