@@ -87,10 +87,8 @@ section{
 }
 
 .logo img{
-
-    width:95px;
-
-    transition:.4s;
+    width:70px;
+    height:auto;
 
 }
 
