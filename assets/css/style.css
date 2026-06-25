@@ -1,22 +1,35 @@
-/* ==============================
-   BEE Management System
-   Professional Theme
-================================ */
+/*====================================
+BEE Management System
+Main Style
+=====================================*/
 
 :root{
 
     --primary:#5E17EB;
     --secondary:#FFC107;
+
     --dark:#1E293B;
+
+    --gray:#64748B;
+
     --light:#F8FAFC;
+
     --white:#FFFFFF;
+
+    --shadow:
+
+        0 10px 30px rgba(0,0,0,.08);
+
+    --radius:16px;
 
 }
 
 *{
 
     margin:0;
+
     padding:0;
+
     box-sizing:border-box;
 
 }
@@ -30,8 +43,11 @@ html{
 body{
 
     font-family:'Kantumruy Pro',sans-serif;
-    background:#F8FAFC;
-    color:#1E293B;
+
+    background:var(--light);
+
+    color:var(--dark);
+
     overflow-x:hidden;
 
 }
@@ -46,142 +62,18 @@ img{
 
     max-width:100%;
 
+    display:block;
+
 }
 
 section{
 
-    padding:80px 0;
+    padding:90px 0;
 
 }
 
 .container{
 
-    max-width:1280px;
-
-}
-
-}
-
-.navbar{
-
-    display:flex;
-
-    justify-content:space-between;
-
-    align-items:center;
-
-}
-
-/* =======================
-      LOGO
-======================= */
-
-.logo{
-
-    display:flex;
-
-    align-items:center;
-
-    gap:20px;
-
-}
-
-.logo img{
-    width:70px;
-    height:auto;
-
-}
-
-.logo img:hover{
-
-    transform:scale(1.08);
-
-}
-
-.logo h2{
-
-    color:#FFC107;
-
-    font-size:34px;
-
-    font-weight:700;
-
-    line-height:1.2;
-
-}
-
-.logo p{
-
-    color:white;
-
-    font-size:18px;
-
-    margin-top:5px;
-
-    font-weight:600;
-
-}
-
-/* =========================
-        MENU
-========================= */
-
-nav ul{
-
-    display:flex;
-
-    align-items:center;
-
-    list-style:none;
-
-    gap:40px;
-
-}
-
-nav a{
-
-    text-decoration:none;
-
-    color:white;
-
-    font-size:18px;
-
-    font-weight:600;
-
-    transition:.3s;
-
-}
-
-nav a:hover{
-
-    color:#FFC107;
-
-}
-
-/* ==========================
-      LOGIN BUTTON
-=========================== */
-
-.login-btn{
-
-    background:#FFC107;
-
-    color:#111!important;
-
-    padding:13px 28px;
-
-    border-radius:12px;
-
-    font-weight:700;
-
-    transition:.3s;
-
-}
-
-.login-btn:hover{
-
-    background:white;
-
-    transform:translateY(-3px);
+    max-width:1320px;
 
 }
