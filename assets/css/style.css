@@ -1,18 +1,26 @@
-/* BEE Management System */
-
 :root{
-
     --primary:#5E17EB;
     --secondary:#FFC107;
     --dark:#1E293B;
     --light:#F8FAFC;
     --white:#FFFFFF;
+}
 
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
 }
 
 body{
+    font-family:'Kantumruy Pro',sans-serif;
+    background:#F8FAFC;
+}
 
-    margin:0;
-    padding:0;
-
+h1{
+    text-align:center;
+    margin-top:150px;
+    font-size:55px;
+    font-weight:700;
+    color:var(--primary);
 }
