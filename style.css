@@ -91,19 +91,27 @@ font-size:20px;
 margin:20px 0;
 }
 
-.btn{
-background:#3182ce;
-color:white;
-padding:15px 30px;
-text-decoration:none;
-border-radius:8px;
+.btn-primary{
+    background:#6f2cff;
+    color:white;
+
+    padding:15px 35px;
+    border-radius:12px;
+
+    font-weight:bold;
 }
 
 footer{
-background:#2d3748;
-color:white;
-text-align:center;
-padding:20px;
+    background:
+    linear-gradient(
+        135deg,
+        #4b00c8,
+        #7b2cff
+    );
+
+    color:white;
+
+    padding:50px;
 }
 .logo img{
     height:60px;
@@ -150,19 +158,22 @@ padding:20px;
     margin-top:20px;
 }
 
-.btn{
-    display:inline-block;
-    background:#6A1B9A;
-    color:white;
-    padding:15px 30px;
-    border-radius:8px;
-    text-decoration:none;
-    margin-top:20px;
+.btn-secondary{
+    background:white;
+
+    border:2px solid #6f2cff;
+
+    color:#6f2cff;
+
+    padding:15px 35px;
+    border-radius:12px;
 }
-.features{
-    padding:80px 50px;
+.feature-item{
+    padding:30px;
     text-align:center;
-    background:#ffffff;
+
+    border-right:
+    1px solid #eee;
 }
 
 .features h2{
@@ -176,10 +187,22 @@ padding:20px;
     margin-bottom:40px;
 }
 
-.feature-grid{
+.features-row{
     display:grid;
-    grid-template-columns:repeat(3,1fr);
-    gap:25px;
+
+    grid-template-columns:
+    repeat(6,1fr);
+
+    background:white;
+
+    border-radius:20px;
+
+    box-shadow:
+    0 10px 30px rgba(0,0,0,.08);
+
+    margin-top:-40px;
+
+    overflow:hidden;
 }
 
 .card{
