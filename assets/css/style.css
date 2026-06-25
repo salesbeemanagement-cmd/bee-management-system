@@ -1,26 +1,176 @@
+/* ==============================
+   BEE Management System
+   Professional Theme
+================================ */
+
 :root{
-    --primary:#5E17EB;
+
+    --primary:#5B21B6;
     --secondary:#FFC107;
     --dark:#1E293B;
     --light:#F8FAFC;
     --white:#FFFFFF;
+
 }
 
 *{
+
     margin:0;
     padding:0;
     box-sizing:border-box;
+
 }
 
 body{
+
     font-family:'Kantumruy Pro',sans-serif;
-    background:#F8FAFC;
+    background:#f8fafc;
+
 }
 
-h1{
-    text-align:center;
-    margin-top:150px;
-    font-size:55px;
+/* =========================
+        HEADER
+========================== */
+
+header{
+
+    width:100%;
+    background:linear-gradient(90deg,#5B21B6,#6D28D9,#7C3AED);
+    padding:18px 0;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.15);
+
+}
+
+.container{
+
+    width:90%;
+    margin:auto;
+
+}
+
+.navbar{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+}
+
+/* =======================
+      LOGO
+======================= */
+
+.logo{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:20px;
+
+}
+
+.logo img{
+
+    width:95px;
+
+    transition:.4s;
+
+}
+
+.logo img:hover{
+
+    transform:scale(1.08);
+
+}
+
+.logo h2{
+
+    color:#FFC107;
+
+    font-size:34px;
+
     font-weight:700;
-    color:var(--primary);
+
+    line-height:1.2;
+
+}
+
+.logo p{
+
+    color:white;
+
+    font-size:18px;
+
+    margin-top:5px;
+
+    font-weight:600;
+
+}
+
+/* =========================
+        MENU
+========================= */
+
+nav ul{
+
+    display:flex;
+
+    align-items:center;
+
+    list-style:none;
+
+    gap:40px;
+
+}
+
+nav a{
+
+    text-decoration:none;
+
+    color:white;
+
+    font-size:18px;
+
+    font-weight:600;
+
+    transition:.3s;
+
+}
+
+nav a:hover{
+
+    color:#FFC107;
+
+}
+
+/* ==========================
+      LOGIN BUTTON
+=========================== */
+
+.login-btn{
+
+    background:#FFC107;
+
+    color:#111!important;
+
+    padding:13px 28px;
+
+    border-radius:12px;
+
+    font-weight:700;
+
+    transition:.3s;
+
+}
+
+.login-btn:hover{
+
+    background:white;
+
+    transform:translateY(-3px);
+
 }
