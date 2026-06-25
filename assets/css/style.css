@@ -77,3 +77,106 @@ section{
     max-width:1320px;
 
 }
+/*======================================
+Navbar
+======================================*/
+
+.bee-navbar{
+
+    background:#5E17EB;
+
+    padding:18px 0;
+
+    position:sticky;
+
+    top:0;
+
+    z-index:999;
+
+    box-shadow:0 5px 20px rgba(0,0,0,.12);
+
+}
+
+.logo{
+
+    width:75px;
+
+}
+
+.logo-text h3{
+
+    color:#FFC107;
+
+    font-size:32px;
+
+    font-weight:700;
+
+    margin:0;
+
+}
+
+.logo-text span{
+
+    color:#fff;
+
+    font-size:20px;
+
+    font-weight:600;
+
+}
+
+.navbar-nav .nav-link{
+
+    color:white;
+
+    font-size:18px;
+
+    font-weight:600;
+
+    margin-left:20px;
+
+    transition:.3s;
+
+}
+
+.navbar-nav .nav-link:hover{
+
+    color:#FFC107;
+
+}
+
+.login-btn{
+
+    padding:12px 30px;
+
+    font-weight:700;
+
+    border-radius:12px;
+
+    background:#FFC107;
+
+    border:none;
+
+}
+
+.login-btn:hover{
+
+    background:#ffca2c;
+
+}
+
+.navbar-toggler{
+
+    border:none;
+
+    color:white;
+
+    font-size:30px;
+
+}
+
+.navbar-toggler:focus{
+
+    box-shadow:none;
+
+}
