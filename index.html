@@ -23,57 +23,180 @@
 <link rel="stylesheet"
 href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 
-<link rel="stylesheet" href="assets/css/style.css">
+<!-- CSS -->
+
+<link rel="stylesheet"
+href="assets/css/style.css">
 
 </head>
 
 <body>
 
-<header class="navbar">
+<!-- Navbar -->
+
+<nav class="navbar navbar-expand-lg bee-navbar">
 
 <div class="container">
 
-<div class="logo">
+<a class="navbar-brand d-flex align-items-center" href="#">
 
-<img src="assets/images/logo.png" alt="BEE Logo">
+<img src="assets/images/logo.png"
+class="logo">
 
-<div>
+<div class="ms-3">
 
-<h2>BEE ប្រព័ន្ធគ្រប់គ្រងអាជីវកម្ម</h2>
+<h3>BEE ប្រព័ន្ធគ្រប់គ្រងអាជីវកម្ម</h3>
 
 <p>Smart Business Management System</p>
 
 </div>
 
-</div>
+</a>
 
-<nav>
+<button class="navbar-toggler"
 
-<ul>
+data-bs-toggle="collapse"
 
-<li><a href="#">ទំព័រដើម</a></li>
+data-bs-target="#navbar">
 
-<li><a href="#">មុខងារ</a></li>
+<span class="navbar-toggler-icon"></span>
 
-<li><a href="#">តម្លៃ</a></li>
+</button>
 
-<li><a href="#">អំពីយើង</a></li>
+<div class="collapse navbar-collapse"
 
-<li><a href="#">ទំនាក់ទំនង</a></li>
+id="navbar">
 
-<li>
+<ul class="navbar-nav ms-auto">
 
-<a class="login-btn" href="#">Login</a>
+<li class="nav-item">
+
+<a class="nav-link active"
+
+href="#">ទំព័រដើម</a>
+
+</li>
+
+<li class="nav-item">
+
+<a class="nav-link"
+
+href="#">មុខងារ</a>
+
+</li>
+
+<li class="nav-item">
+
+<a class="nav-link"
+
+href="#">តម្លៃ</a>
+
+</li>
+
+<li class="nav-item">
+
+<a class="nav-link"
+
+href="#">អំពីយើង</a>
+
+</li>
+
+<li class="nav-item">
+
+<a class="nav-link"
+
+href="#">ទំនាក់ទំនង</a>
 
 </li>
 
 </ul>
 
-</nav>
+<a href="#"
+
+class="btn login-btn">
+
+Login
+
+</a>
 
 </div>
 
-</header>
+</div>
+
+</nav>
+
+<!-- Hero -->
+
+<section class="hero">
+
+<div class="container">
+
+<div class="row align-items-center">
+
+<div class="col-lg-6">
+
+<span class="subtitle">
+
+WELCOME TO BEE
+
+</span>
+
+<h1>
+
+BEE Management System
+
+</h1>
+
+<p>
+
+ប្រព័ន្ធគ្រប់គ្រងអាជីវកម្មទំនើប
+សម្រាប់អាជីវកម្មនៅកម្ពុជា។
+
+</p>
+
+<div class="hero-buttons">
+
+<a href="#"
+
+class="btn btn-primary">
+
+<i class="fa-solid fa-rocket"></i>
+
+ចាប់ផ្តើម
+
+</a>
+
+<a href="#"
+
+class="btn btn-outline-light">
+
+<i class="fa-solid fa-circle-play"></i>
+
+មើល Demo
+
+</a>
+
+</div>
+
+</div>
+
+<div class="col-lg-6 text-center">
+
+<img
+
+src="assets/images/dashboard.png"
+
+class="img-fluid hero-image">
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
 
 <script src="assets/js/app.js"></script>
 
