@@ -1,1 +1,11 @@
-console.log("BEE Management System Version 1.0");
+/*
+=========================================
+BEE Management System
+=========================================
+*/
+
+document.addEventListener("DOMContentLoaded",()=>{
+
+console.log("BEE Management System Started.");
+
+});
