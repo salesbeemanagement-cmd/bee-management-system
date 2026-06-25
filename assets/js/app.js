@@ -1,1 +1,1 @@
-assets/js/app.js
+console.log("BEE Management System Loaded Successfully");
