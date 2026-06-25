@@ -1,0 +1,18 @@
+/* BEE Management System */
+
+:root{
+
+    --primary:#5E17EB;
+    --secondary:#FFC107;
+    --dark:#1E293B;
+    --light:#F8FAFC;
+    --white:#FFFFFF;
+
+}
+
+body{
+
+    margin:0;
+    padding:0;
+
+}
