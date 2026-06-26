@@ -262,3 +262,44 @@ Navbar
     margin-bottom:15px;
     color:#2F3B59;
 }
+.hero{
+
+    padding:140px 0 80px;
+
+    background:linear-gradient(
+        135deg,
+        #ffffff,
+        #f5f2ff
+    );
+
+}
+
+.hero h1{
+
+    font-size:52px;
+
+    font-weight:700;
+
+}
+
+.hero h1 span{
+
+    color:#5B21B6;
+
+}
+
+.hero p{
+
+    margin:25px 0;
+
+    color:#666;
+
+    line-height:1.8;
+
+}
+
+.hero img{
+
+    max-width:100%;
+
+}
