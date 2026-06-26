@@ -81,44 +81,43 @@ section{
 Navbar
 ======================================*/
 
-.bee-navbar{
-
-    background:#5E17EB;
-
-    padding:18px 0;
-
-    position:sticky;
-
-    top:0;
-
-    z-index:999;
-
-    box-shadow:0 5px 20px rgba(0,0,0,.12);
-
+.navbar-brand{
+    display:flex;
+    align-items:center;
+    gap:15px;              
 }
 
-.logo {
-    width: 70px;
-    height: 70px;
-    object-fit: contain;
-    display: block;
+.logo-wrapper{
+    flex-shrink:0;
 }
 
-.logo-wrapper {
-    display: flex;
-    align-items: center;
+.logo{
+    width:85px;
+    height:85px;
+    object-fit:contain;
+    display:block;
 }
 
+/* Title */
+
+.logo-text{
+    margin-left:0;
+    line-height:1.2;
+}
+
+.logo-text h3{
+    margin:0;
+    color:#FFC107;
+    font-size:34px;
+    font-weight:700;
 }
 
 .logo-text span{
-
+    display:block;
+    margin-top:5px;
     color:#fff;
-
-    font-size:20px;
-
-    font-weight:600;
-
+    font-size:18px;
+    font-weight:400;
 }
 
 .navbar-nav .nav-link{
