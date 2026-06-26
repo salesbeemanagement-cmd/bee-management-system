@@ -60,7 +60,7 @@ a{
 
 img{
 
-    max-width:30%;
+    max-width:100%;
 
     display:block;
 
@@ -81,10 +81,14 @@ section{
 Navbar
 ======================================*/
 
-.navbar-brand{
-    display:flex;
-    align-items:center;
-    gap:15px;              
+.bee-navbar{
+    background: linear-gradient(90deg,#5E17EB,#7B2FF7);
+    padding:18px 0;
+    position:sticky;
+    top:0;
+    z-index:9999;
+    box-shadow:0 5px 20px rgba(0,0,0,.15);
+}            
 }
 
 .logo-wrapper{
