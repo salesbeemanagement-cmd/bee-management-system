@@ -98,8 +98,9 @@ Navbar
 }
 
 .logo{
-
-    width:75px;
+    width:80px;
+    height:auto;
+    object-fit:contain;
 
 }
 
