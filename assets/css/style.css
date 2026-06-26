@@ -177,6 +177,13 @@ Navbar
     box-shadow:none;
 
 }
+.navbar-collapse{
+
+    margin-left:120px;
+
+    justify-content:flex-end;
+
+}
 .features{
     padding:80px 50px;
     text-align:center;
