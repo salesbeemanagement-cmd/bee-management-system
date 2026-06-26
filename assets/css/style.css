@@ -175,6 +175,19 @@ Navbar
     font-size:30px;
 
 }
+.nav-link{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    color:#fff;
+    font-weight:600;
+}
+
+.nav-link small{
+    font-size:12px;
+    font-weight:400;
+    opacity:.8;
+}
 
 .navbar-toggler:focus{
 
