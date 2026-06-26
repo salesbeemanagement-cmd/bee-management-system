@@ -97,23 +97,17 @@ Navbar
 
 }
 
-.logo{
-    width:25px;
-    height:auto;
-    display:block;
-}
-
-}
-
 .logo-text h3{
-
-    color:#FFC107;
-
-    font-size:32px;
-
-    font-weight:700;
-
     margin:0;
+    color:#FFC107;
+    font-size:34px;
+    font-weight:700;
+}
+
+.logo-text span{
+    color:#fff;
+    font-size:18px;
+}
 
 }
 
