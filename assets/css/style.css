@@ -97,16 +97,16 @@ Navbar
 
 }
 
-.logo-text h3{
-    margin:0;
-    color:#FFC107;
-    font-size:34px;
-    font-weight:700;
+.logo {
+    width: 70px;
+    height: 70px;
+    object-fit: contain;
+    display: block;
 }
 
-.logo-text span{
-    color:#fff;
-    font-size:18px;
+.logo-wrapper {
+    display: flex;
+    align-items: center;
 }
 
 }
