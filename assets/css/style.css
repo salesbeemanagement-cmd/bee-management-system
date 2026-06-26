@@ -346,25 +346,21 @@ Navbar
 }
 
 .hero-image{
-
     width:100%;
-
-    max-width:700px;
-
-    animation:float 4s ease-in-out infinite;
-
+    max-width:720px;
+    height:auto;
+    display:block;
+    margin:0 auto;
+    animation: float 4s ease-in-out infinite;
 }
 
 @keyframes float{
-
     0%{
         transform:translateY(0);
     }
-
     50%{
         transform:translateY(-10px);
     }
-
     100%{
         transform:translateY(0);
     }
